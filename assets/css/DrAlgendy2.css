@@ -11167,11 +11167,13 @@ p {
   border-radius: 0;
   padding-bottom: 4px;
   margin: 0 auto 20px;
-  max-width: 400px;
+  max-width: 500px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
-  display: block;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
